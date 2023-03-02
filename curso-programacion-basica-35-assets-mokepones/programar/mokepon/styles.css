@@ -79,3 +79,18 @@ color: white;
 font-family: 'Poppins' sans-serif;
 }
 
+#mensajes {
+  width: 200px;
+  background-color: #535657;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+#boton-reiniciar {
+  border: none;
+  background-color: #B7ADCF;
+  border-radius: 5px;
+}
