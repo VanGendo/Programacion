@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+
 
 body {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins';
   background-color: #041562;
 }
 
@@ -13,6 +15,7 @@ body {
 }
 
 .titulo {
+  font-family: 'Fredoka One', cursive;
   color: white;
   font-size: 32px;
 }
@@ -42,6 +45,18 @@ body {
 
 .tarjeta-de-mokepon img {
   width: 80px;
+}
+
+#boton-mascota{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Poppins';
+  margin-top: 30px;
+
 }
 
 input {
