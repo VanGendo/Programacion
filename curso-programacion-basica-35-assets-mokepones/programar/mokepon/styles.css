@@ -3,8 +3,8 @@
 
 
 body {
-  font-family: 'Poppins';
-  background-color: #041562;
+  font-family: 'Poppins' sans-serif;
+  background-color: #B7ADCF;
 }
 
 #seleccionar-mascota {
@@ -33,7 +33,7 @@ body {
 .tarjeta-de-mokepon {
   width: 180px;
   height: 100px;
-  background: #11468F;
+  background: #4F646F;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
@@ -51,7 +51,7 @@ body {
   width: 180px;
   height: 40px;
   border-radius: 40px;
-  background: transparent;
+  background: #4F646F;
   border: 2px solid white;
   color: white;
   font-family: 'Poppins';
@@ -62,3 +62,20 @@ body {
 input {
   display: none;
 }
+
+#seleccionar-ataque {
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton-de-ataque {
+background-color: #4F646F;
+padding: 10px;
+box-sizing: border-box;
+border-radius: 20px;
+border-color: transparent;
+width: 100px;
+color: white;
+font-family: 'Poppins' sans-serif;
+}
+
